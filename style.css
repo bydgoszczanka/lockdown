@@ -1,0 +1,186 @@
+:root {
+    background-color: #f4f4f4;
+    font-size: 62%;
+}
+
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    margin: 0;
+    padding: 0;
+    color: #17565f
+}
+
+h1 {
+    font-size: 4rem;
+    padding: 1rem;
+    color: #c5910d;
+
+}
+
+h2{
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+#logo {
+    width: 40%;
+    height: auto;
+    margin-bottom: 2rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    align-self: start;
+}
+
+.container {
+    width: 100vm;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+.option {
+    display:flex;
+    flex-direction: column;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-center {
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-space {
+    justify-content: space-between;
+}
+
+.btn-action {
+    font-size: 3rem;
+    border-color: #daa520;
+    background-color: #daa520;
+    color: white;
+    text-decoration: none;
+    width: 80rem;
+    height: 6rem;
+    border-radius: 0.7rem;
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+    padding: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-action:hover {
+    cursor: pointer;
+    box-shadow: 0 0.2rem 1.1rem #d6a427;
+}
+
+.btn-nav {
+    font-size: 2rem;
+    text-align: center;
+    align-self: flex-start;
+    color: #299dad;
+    margin-top: 3rem;
+}
+
+.btn-nav:hover {
+    cursor: pointer;
+    color: rgb(4, 117, 117);
+}
+
+.btn-home {
+    font-size: 3rem;
+    text-align: center;
+    box-shadow: none;
+    background-color: #daa520;
+    color: white;
+    text-decoration: none;
+    width: 30rem;
+    height: 4rem;
+    border-radius: 0.7rem;
+    margin-bottom: 3rem;
+    margin-left: 4rem;
+    padding: 1.5rem;
+}
+
+.btn-home:hover{
+    cursor: pointer;
+    box-shadow: 0 0.2rem 1.1rem #d6a427;
+}
+
+.btn-next {
+    font-size: 3rem;
+    text-align: center;
+    align-self: flex-end;
+    background-color: #daa520;
+    color: white;
+    text-decoration: none;
+    width: 30rem;
+    height: 4rem;
+    border-radius: 0.7rem;
+    margin-bottom: 3rem;
+    margin-top: 4rem;
+    margin-left: 4rem;
+    padding: 1.5rem;
+}
+
+.btn-next:hover {
+    cursor: pointer;
+    box-shadow: 0 0.2rem 1.1rem #d6a427;
+}
+
+.grid-container {
+    width: 100vm;
+    height: 100vh;
+    display: grid;
+    grid-template-areas: 
+    'header header header'
+    'left right right';
+    align-items: auto;
+    margin: 5rem;
+}
+
+.item1 {
+    grid-area: header;
+    align-self:auto;
+}
+
+.item2 {
+    grid-area: right;
+}
+
+.item3 {
+    grid-area: left;
+}
+
+.stats {
+    display: flex;
+    align-self: flex-start;
+    justify-self: flex-start;
+    flex-wrap: wrap;
+    font-size: 2rem;
+    margin-left: 1rem;
+    margin-bottom: 0.4rem;
+}
+
+.stat {
+    color: #70AD47;
+}
+
+
+#Author {
+    width: 40%;
+    height: auto;
+    border: 0.5rem solid #daa520;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
