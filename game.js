@@ -22,14 +22,19 @@ function showTextNodes (textNodeIndex) {
     }
 
     textNode.options.forEach(option => {
-        answers.innerText = option.text
-        answers.addEventListener('click', () => selectOption(option))
+        // answers.innerText = option.text
+        // answers.addEventListener('click', () => selectOption(option))
+        const button = document.createElement('p')
+        button.innerText = option.text
+        button.classList.add('btn-action')
+        button.addEventListener('click', () => chooseOption(option))
+        answers.appendChild(button)
     })
 }
     
 
 function chooseOption(option) {
-
+    showTextNodes(option.nextQstn);
 }
 
 /*all questions and possible answers*/
