@@ -33,12 +33,12 @@ h2{
 }
 
 .container {
-    width: 100vm;
-    height: 100vh;
+    width: auto;
+    height: auto;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
     align-items: center;
+    justify-content:center;
     padding: 2rem;
 }
 
@@ -175,6 +175,21 @@ h2{
     color: #70AD47;
 }
 
+.excellent {
+    color: #00B050;
+}
+
+.bad {
+    color: #FF0000;
+}
+
+.terrible{
+    color: #C00000;
+}
+
+.gameOver{
+    display: none;
+}
 
 #Author {
     width: 40%;
